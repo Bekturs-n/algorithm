@@ -5,9 +5,8 @@ public class QuickSort {
         if (array.length == 0)
             return;
 
-        if (low >= high)
-            return;
-
+//      выбор пивота из несколькиз значений значительно ускорят процесс
+//      https://www.youtube.com/watch?v=4s-aG6yGGLU
         int pivot = low + (high - low) / 2;
         int wall = array[pivot];
 
