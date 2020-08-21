@@ -2,6 +2,13 @@ package quickSort;
 
 import java.util.Arrays;
 
+/**
+ * Быстрая сортировка;
+ *
+ * Сложность алгоритма: O(n log n), наихудщий вариант: O(n^2);
+ *
+ * Используется алгоритм "разделяй и владствуй"
+ */
 public class Main {
     public static void main(String[] args) {
         int[] x = { 8, 0, 4, 7, 3, 7, 10, 12, -3 };
