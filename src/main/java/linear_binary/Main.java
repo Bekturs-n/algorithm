@@ -9,9 +9,10 @@ package linear_binary;
  */
 public class Main {
     public static void main(String[] args) {
-        linear(58.876345);
+        double d = 58.876345;
+        linear(d);
         System.out.println("=====================================");
-        binary(58.876345);
+        binary(d);
     }
 
     public static void linear(double d) {
@@ -32,7 +33,6 @@ public class Main {
         double high = d;
         double middle = (high + low) / 2;
         int i = 0;
-//        double result = 0;
 
         while (Math.abs(middle * middle - d) >= 0.001){
             if(middle * middle < d){
